@@ -1,14 +1,38 @@
-<!doctype html>
-<html>
-    <head>
-        <title>GifTastic</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
 
-<h1>sup</h1>
+</head>
 
+<body>
 
+  <div class="container">
+    <h1 style="text-align:center">Food Gifs!</h1>
 
+    <div id="button-div"></div>
 
-    </body>
+    <br>
+
+    <div class="row">
+        <div class="col-8" id="gifs-appear-here"></div>
+        <div class="col-4">
+            <p><strong>Add anything u want...</strong></p>
+            <input type="text" id="food-input" style="margin: 0 0 10px 0"><br>
+            <button class="button btn btn-success" id="go-button">Go!</button>
+            <button class="btn btn-info" id="add-button">Add Button</button>
+        </div>
+    </div>
+    
+  </div>
+
+  
+    <!-- JQuery + Local JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript.js"></script>
+
+</body>
+
 </html>
